@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FunWithTriangles</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">Fun With Triangles</div>
+      <ul class="list-not-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="index.html">Calculate Angle</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="quiz.html">Play Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="calculate hypotenuse.html"
+            >Calculate Hypotenuse</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="input-box">
+      <label for="angle1">ANGLE1</label>
+      <input type="number" class="angle-input" />
+      <label for="angle2">ANGLE2</label>
+      <input type="number" class="angle-input" />
+      <label for="angle3">ANGLE3</label>
+      <input type="number" class="angle-input" />
+      <button class="button-check" id="is-triangle-btn">is a Triangle</button>
+    </div>
+    <div id="output"></div>
+    <script src="triangles.js"></script>
+  </body>
+</html>
