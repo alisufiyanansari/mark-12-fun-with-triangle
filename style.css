@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+
+
+:root { --backgroundcolor:#cef1e6;
+    --primarycolor:#da1414;
+    --secondarycolor:#bdd4b8;
+
+
+ 
+}
+body{
+    background-color: var(--backgroundcolor);
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--primarycolor);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  .navigation .nav-brand {
+      background-color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem,;
+    border-radius: 2rem;
+    text-align: center;
+
+  }
+  .navigation .link {
+    color:var(--secondarycolor);
+    text-decoration: none;
+  }
+  
+.navigation .link-active {
+    font-weight: bold;
+  }
+.input-box{
+    color: var(--primarycolor);
+    text-decoration: bold ;
+    border-color: #a17272;
+    text-align: center;
+    margin: 0 auto;
+}
+.button{
+    
+    background-color: var(--secondarycolor);
+    border-color: var(--primarycolor);
+    border-radius: 1rem;
+    padding: 0.5rem;
+     
+}
+.side-input{
+    background-color: var(--secondarycolor);
+    border-radius: 1rem;
+    border-color: var(--primarycolor);
+    align-items: center;
+}
+
+.button-check{
+    background-color: var(--secondarycolor);
+    border-color: var(--primarycolor);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    display: block;
+    margin: 2rem auto;
+}
+.angle-input{
+    background-color: var(--secondarycolor);
+    border-radius: 1rem;
+    border-color: var(--primarycolor);
+    align-items: center;
+}
+
+
