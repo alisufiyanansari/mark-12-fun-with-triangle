@@ -11,34 +11,34 @@
     <nav class="navbar">
       <h1>Triangles</h1>
       <div class="nav-menus">
-        <h4 class="nav-menu-item active">
+        <h4 class="nav-menu-item">
           <a href="./index.html">Is Triangle?</a>
         </h4>
         <h4 class="nav-menu-item"><a href="./quiz.html">Quiz</a></h4>
         <h4 class="nav-menu-item">
           <a href="./hypotenuse.html">Find-Hypotenuse</a>
         </h4>
-        <h4 class="nav-menu-item">
+        <h4 class="nav-menu-item active">
           <a href="./area.html">Find Area of Triangle</a>
         </h4>
       </div>
     </nav>
-    <form class="form" id="is-triangle-form">
+    <form class="form" id="area-form">
       <div class="input-container">
-        <label for="angle1" class="input-label">Angle 1</label>
-        <input type="number" id="angle1" />
+        <label for="side1" class="input-label">Enter Side 1</label>
+        <input type="number" id="side1" />
       </div>
       <div class="input-container">
-        <label for="angle2" class="input-label">Angle 2</label>
-        <input type="number" id="angle2" />
+        <label for="side2" class="input-label">Enter Side 2</label>
+        <input type="number" id="side2" />
       </div>
       <div class="input-container">
-        <label for="angle3" class="input-label">Angle 3</label>
-        <input type="number" id="angle3" />
+        <label for="side3" class="input-label">Enter Side 3</label>
+        <input type="number" id="side3" />
       </div>
       <button type="submit">SUBMIT</button>
+      <h3 class="output" id="output-message"></h3>
     </form>
-    <h1 class="output" id="output-message"></h1>
     <script src="./script.js"></script>
   </body>
 </html>
